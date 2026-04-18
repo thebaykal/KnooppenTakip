@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Users\mhbay\Documents\Garmin\KnooppenTakip\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipDelegate.mc" id="1" lineNum="4" parent="globals/KnooppenTakipDelegate" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435472" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="3" lineNum="40" parent="globals/KnooppenTakipView" pc="268435492" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="3" lineNum="42" parent="globals/KnooppenTakipView" pc="268435503" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipMenuDelegate.mc" id="4" lineNum="5" parent="globals/KnooppenTakipMenuDelegate" pc="268435691" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipApp.mc" id="5" lineNum="4" parent="globals/KnooppenTakipApp" pc="268435703" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipDelegate.mc" id="6" lineNum="10" parent="globals/KnooppenTakipDelegate" pc="268435715" symbol="onMenu"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipDelegate.mc" id="6" lineNum="11" parent="globals/KnooppenTakipDelegate" pc="268435717" symbol="onMenu"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipDelegate.mc" id="6" lineNum="12" parent="globals/KnooppenTakipDelegate" pc="268435782" symbol="onMenu"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipDelegate.mc" id="7" lineNum="6" parent="globals/KnooppenTakipDelegate" pc="268435784" symbol="initialize"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipDelegate.mc" id="7" lineNum="7" parent="globals/KnooppenTakipDelegate" pc="268435786" symbol="initialize"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="78" parent="globals/KnooppenTakipView" pc="268435799" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="80" parent="globals/KnooppenTakipView" pc="268435802" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="81" parent="globals/KnooppenTakipView" pc="268435814" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="83" parent="globals/KnooppenTakipView" pc="268435831" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="84" parent="globals/KnooppenTakipView" pc="268435846" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="85" parent="globals/KnooppenTakipView" pc="268435857" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="87" parent="globals/KnooppenTakipView" pc="268435869" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="89" parent="globals/KnooppenTakipView" pc="268435889" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="90" parent="globals/KnooppenTakipView" pc="268435902" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="92" parent="globals/KnooppenTakipView" pc="268435936" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="93" parent="globals/KnooppenTakipView" pc="268435947" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="94" parent="globals/KnooppenTakipView" pc="268435960" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="95" parent="globals/KnooppenTakipView" pc="268436007" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="97" parent="globals/KnooppenTakipView" pc="268436022" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="98" parent="globals/KnooppenTakipView" pc="268436042" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="100" parent="globals/KnooppenTakipView" pc="268436066" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="8" lineNum="106" parent="globals/KnooppenTakipView" pc="268436087" symbol="compute"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="9" lineNum="74" parent="globals/KnooppenTakipView" pc="268436093" symbol="initialize"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="9" lineNum="75" parent="globals/KnooppenTakipView" pc="268436095" symbol="initialize"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="10" lineNum="109" parent="globals/KnooppenTakipView" pc="268436108" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="10" lineNum="110" parent="globals/KnooppenTakipView" pc="268436111" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="10" lineNum="111" parent="globals/KnooppenTakipView" pc="268436120" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="10" lineNum="114" parent="globals/KnooppenTakipView" pc="268436129" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="10" lineNum="115" parent="globals/KnooppenTakipView" pc="268436141" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="10" lineNum="118" parent="globals/KnooppenTakipView" pc="268436149" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="10" lineNum="121" parent="globals/KnooppenTakipView" pc="268436166" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="10" lineNum="125" parent="globals/KnooppenTakipView" pc="268436216" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="10" lineNum="130" parent="globals/KnooppenTakipView" pc="268436266" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="10" lineNum="135" parent="globals/KnooppenTakipView" pc="268436304" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="10" lineNum="140" parent="globals/KnooppenTakipView" pc="268436355" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="10" lineNum="141" parent="globals/KnooppenTakipView" pc="268436363" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="10" lineNum="142" parent="globals/KnooppenTakipView" pc="268436380" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="11" lineNum="150" parent="globals/KnooppenTakipView" pc="268436416" symbol="calculateDist"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="11" lineNum="151" parent="globals/KnooppenTakipView" pc="268436419" symbol="calculateDist"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="11" lineNum="152" parent="globals/KnooppenTakipView" pc="268436453" symbol="calculateDist"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipView.mc" id="11" lineNum="153" parent="globals/KnooppenTakipView" pc="268436466" symbol="calculateDist"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipMenuDelegate.mc" id="12" lineNum="11" parent="globals/KnooppenTakipMenuDelegate" pc="268436490" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipMenuDelegate.mc" id="12" lineNum="12" parent="globals/KnooppenTakipMenuDelegate" pc="268436492" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipMenuDelegate.mc" id="12" lineNum="13" parent="globals/KnooppenTakipMenuDelegate" pc="268436503" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipMenuDelegate.mc" id="12" lineNum="14" parent="globals/KnooppenTakipMenuDelegate" pc="268436524" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipMenuDelegate.mc" id="12" lineNum="15" parent="globals/KnooppenTakipMenuDelegate" pc="268436535" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipMenuDelegate.mc" id="13" lineNum="7" parent="globals/KnooppenTakipMenuDelegate" pc="268436557" symbol="initialize"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipMenuDelegate.mc" id="13" lineNum="8" parent="globals/KnooppenTakipMenuDelegate" pc="268436559" symbol="initialize"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipApp.mc" id="14" lineNum="10" parent="globals/KnooppenTakipApp" pc="268436572" symbol="getInitialView"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipApp.mc" id="14" lineNum="11" parent="globals/KnooppenTakipApp" pc="268436574" symbol="getInitialView"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipApp.mc" id="15" lineNum="6" parent="globals/KnooppenTakipApp" pc="268436600" symbol="initialize"/>
+<entry filename="C:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\source\\KnooppenTakipApp.mc" id="15" lineNum="7" parent="globals/KnooppenTakipApp" pc="268436602" symbol="initialize"/>
+<entry filename="c:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="16" lineNum="14" parent="globals/Rez/Layouts" pc="268436619" symbol="MainLayout"/>
+<entry filename="c:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="16" lineNum="15" parent="globals/Rez/Layouts" pc="268436630" symbol="MainLayout"/>
+<entry filename="c:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="16" lineNum="17" parent="globals/Rez/Layouts" pc="268436639" symbol="MainLayout"/>
+<entry filename="c:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="16" lineNum="19" parent="globals/Rez/Layouts" pc="268436742" symbol="MainLayout"/>
+<entry filename="c:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="16" lineNum="20" parent="globals/Rez/Layouts" pc="268436826" symbol="MainLayout"/>
+<entry filename="c:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="16" lineNum="22" parent="globals/Rez/Layouts" pc="268436857" symbol="MainLayout"/>
+<entry filename="c:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="17" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268436872" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="18" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268436884" symbol="initialize"/>
+<entry filename="c:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="18" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268436886" symbol="initialize"/>
+<entry filename="c:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="18" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268436898" symbol="initialize"/>
+<entry filename="c:\\Users\\mhbay\\Documents\\Garmin\\KnooppenTakip\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="18" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268436943" symbol="initialize"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="8389346" symbol="text"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="5" module="true" symbol="globals/Rez/Menus"/>
+<entry id="23" method="true" symbol="MainLayout"/>
+<entry id="8" object="true" symbol="KnooppenTakipDelegate"/>
+<entry id="10" object="true" symbol="KnooppenTakipView"/>
+<entry field="true" id="18" symbol="lastDistance"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="25" symbol="AppName"/>
+<entry id="6" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry field="true" id="16" symbol="currentLon"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="28" symbol="prompt"/>
+<entry field="true" id="22" symbol="id_monkey"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry field="true" id="15" symbol="currentLat"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="30" symbol="item_2"/>
+<entry id="29" symbol="item_1"/>
+<entry id="12" module="true" symbol="Menus"/>
+<entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="20" symbol="nodes"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="8389137" method="true" symbol="compute"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="24" object="true" symbol="MainMenu"/>
+<entry id="7" object="true" symbol="KnooppenTakipApp"/>
+<entry field="true" id="19" symbol="matchBlink"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="14" symbol="currentIndex"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="21" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="9" object="true" symbol="KnooppenTakipMenuDelegate"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry field="true" id="17" symbol="displayNode"/>
+<entry id="8389109" method="true" symbol="onMenuItem"/>
+<entry field="true" id="8389347" symbol="color"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="13" method="true" symbol="calculateDist"/>
+<entry id="8388636" module="true" symbol="Attention"/>
+<entry id="8388642" module="true" symbol="Position"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="27" symbol="menu_label_2"/>
+<entry field="true" id="26" symbol="menu_label_1"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268436092" name="info" stackId="1" startPc="268435799"/>
+<entry endPc="268436092" name="posInfo" stackId="2" startPc="268435802"/>
+<entry endPc="268436083" name="pos" stackId="3" startPc="268435831"/>
+<entry endPc="268436080" name="target" stackId="4" startPc="268435889"/>
+<entry arg="true" endPc="268436415" name="dc" stackId="1" startPc="268436108"/>
+<entry endPc="268436414" name="w" stackId="2" startPc="268436111"/>
+<entry endPc="268436414" name="h" stackId="3" startPc="268436111"/>
+<entry arg="true" endPc="268436489" name="lat1" stackId="1" startPc="268436416"/>
+<entry arg="true" endPc="268436489" name="lon1" stackId="2" startPc="268436416"/>
+<entry arg="true" endPc="268436489" name="lat2" stackId="3" startPc="268436416"/>
+<entry arg="true" endPc="268436489" name="lon2" stackId="4" startPc="268436416"/>
+<entry endPc="268436489" name="dx" stackId="5" startPc="268436419"/>
+<entry endPc="268436489" name="dy" stackId="6" startPc="268436419"/>
+<entry arg="true" endPc="268436556" name="item" stackId="1" startPc="268436490"/>
+<entry arg="true" endPc="268436871" name="dc" stackId="1" startPc="268436619"/>
+<entry endPc="268436871" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268436630"/>
+<entry endPc="268436871" name="rez_cmp_local_text_1193959466" stackId="3" startPc="268436630"/>
+<entry endPc="268436871" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268436630"/>
+</localVars>
+<deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4426-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/KnooppenTakipDelegate" offset="143" parentId="globals" symbolId="KnooppenTakipDelegate" type="class"/>
+<dataEntry label="globals/Rez" offset="196" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/KnooppenTakipView" offset="258" parentId="globals" symbolId="KnooppenTakipView" type="class"/>
+<dataEntry label="globals/KnooppenTakipMenuDelegate" offset="392" parentId="globals" symbolId="KnooppenTakipMenuDelegate" type="class"/>
+<dataEntry label="globals/KnooppenTakipApp" offset="445" parentId="globals" symbolId="KnooppenTakipApp" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="498" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="542" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="577" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="612" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/Menus/MainMenu" offset="674" parentId="Menus" symbolId="MainMenu" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="KnooppenTakipDelegate" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435491" name="&lt;init&gt;" parent="Rez" startPc="268435472">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435690" name="&lt;init&gt;" parent="KnooppenTakipView" startPc="268435492">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435702" name="&lt;init&gt;" parent="KnooppenTakipMenuDelegate" startPc="268435691">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435714" name="&lt;init&gt;" parent="KnooppenTakipApp" startPc="268435703">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435783" name="onMenu" parent="KnooppenTakipDelegate" startPc="268435715">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435798" name="initialize" parent="KnooppenTakipDelegate" startPc="268435784">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436092" name="compute" parent="KnooppenTakipView" startPc="268435799">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436107" name="initialize" parent="KnooppenTakipView" startPc="268436093">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436415" name="onUpdate" parent="KnooppenTakipView" startPc="268436108">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436489" name="calculateDist" parent="KnooppenTakipView" startPc="268436416">
+<param id="lat1"/>
+<param id="lon1"/>
+<param id="lat2"/>
+<param id="lon2"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436556" name="onMenuItem" parent="KnooppenTakipMenuDelegate" startPc="268436490">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436571" name="initialize" parent="KnooppenTakipMenuDelegate" startPc="268436557">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436599" name="getInitialView" parent="KnooppenTakipApp" startPc="268436572">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436618" name="initialize" parent="KnooppenTakipApp" startPc="268436600">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436871" name="MainLayout" parent="Layouts" startPc="268436619">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436883" name="&lt;init&gt;" parent="MainMenu" startPc="268436872">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436988" name="initialize" parent="MainMenu" startPc="268436884">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

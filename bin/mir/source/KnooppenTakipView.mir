@@ -1,0 +1,886 @@
+[ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Position,3,14,22]; ]
+import Toybox.Position;
+[ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Attention,4,14,23]; ]
+import Toybox.Attention;
+[ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Graphics,5,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Math,6,14,18]; ]
+import Toybox.Math;
+[ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 8; @symbol_classdef = [KnooppenTakipView,8,6,23]; @symbol_extends<0> = [WatchUi,8,32,39]; @symbol_extends<1> = [DataField,8,40,49]; ]
+class KnooppenTakipView extends WatchUi.DataField {
+    [ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 8; ]
+    <init> {
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 10 8 ]
+        %tmp.1 = newa 30;
+        %tmp.2 = newa 3;
+        %tmp.3 = 51.489794;
+        %tmp.4 = dup %tmp.2;
+        %tmp.5 = aputv %tmp.4 0 %tmp.3;
+        %tmp.6 = 5.50473;
+        %tmp.7 = dup %tmp.5;
+        %tmp.8 = aputv %tmp.7 1 %tmp.6;
+        %tmp.9 = "8";
+        %tmp.10 = dup %tmp.8;
+        %tmp.11 = aputv %tmp.10 2 %tmp.9;
+        %tmp.12 = dup %tmp.1;
+        %tmp.13 = aputv %tmp.12 0 %tmp.11;
+        %tmp.14 = newa 3;
+        %tmp.15 = 51.504822;
+        %tmp.16 = dup %tmp.14;
+        %tmp.17 = aputv %tmp.16 0 %tmp.15;
+        %tmp.18 = 5.496548;
+        %tmp.19 = dup %tmp.17;
+        %tmp.20 = aputv %tmp.19 1 %tmp.18;
+        %tmp.21 = "9";
+        %tmp.22 = dup %tmp.20;
+        %tmp.23 = aputv %tmp.22 2 %tmp.21;
+        %tmp.24 = dup %tmp.13;
+        %tmp.25 = aputv %tmp.24 1 %tmp.23;
+        %tmp.26 = newa 3;
+        %tmp.27 = 51.511186;
+        %tmp.28 = dup %tmp.26;
+        %tmp.29 = aputv %tmp.28 0 %tmp.27;
+        %tmp.30 = 5.493475;
+        %tmp.31 = dup %tmp.29;
+        %tmp.32 = aputv %tmp.31 1 %tmp.30;
+        %tmp.33 = "43";
+        %tmp.34 = dup %tmp.32;
+        %tmp.35 = aputv %tmp.34 2 %tmp.33;
+        %tmp.36 = dup %tmp.25;
+        %tmp.37 = aputv %tmp.36 2 %tmp.35;
+        %tmp.38 = newa 3;
+        %tmp.39 = 51.521049;
+        %tmp.40 = dup %tmp.38;
+        %tmp.41 = aputv %tmp.40 0 %tmp.39;
+        %tmp.42 = 5.502811;
+        %tmp.43 = dup %tmp.41;
+        %tmp.44 = aputv %tmp.43 1 %tmp.42;
+        %tmp.45 = "40";
+        %tmp.46 = dup %tmp.44;
+        %tmp.47 = aputv %tmp.46 2 %tmp.45;
+        %tmp.48 = dup %tmp.37;
+        %tmp.49 = aputv %tmp.48 3 %tmp.47;
+        %tmp.50 = newa 3;
+        %tmp.51 = 51.530119;
+        %tmp.52 = dup %tmp.50;
+        %tmp.53 = aputv %tmp.52 0 %tmp.51;
+        %tmp.54 = 5.489888;
+        %tmp.55 = dup %tmp.53;
+        %tmp.56 = aputv %tmp.55 1 %tmp.54;
+        %tmp.57 = "51";
+        %tmp.58 = dup %tmp.56;
+        %tmp.59 = aputv %tmp.58 2 %tmp.57;
+        %tmp.60 = dup %tmp.49;
+        %tmp.61 = aputv %tmp.60 4 %tmp.59;
+        %tmp.62 = newa 3;
+        %tmp.63 = 51.54212;
+        %tmp.64 = dup %tmp.62;
+        %tmp.65 = aputv %tmp.64 0 %tmp.63;
+        %tmp.66 = 5.50178;
+        %tmp.67 = dup %tmp.65;
+        %tmp.68 = aputv %tmp.67 1 %tmp.66;
+        %tmp.69 = "52";
+        %tmp.70 = dup %tmp.68;
+        %tmp.71 = aputv %tmp.70 2 %tmp.69;
+        %tmp.72 = dup %tmp.61;
+        %tmp.73 = aputv %tmp.72 5 %tmp.71;
+        %tmp.74 = newa 3;
+        %tmp.75 = 51.555115;
+        %tmp.76 = dup %tmp.74;
+        %tmp.77 = aputv %tmp.76 0 %tmp.75;
+        %tmp.78 = 5.525308;
+        %tmp.79 = dup %tmp.77;
+        %tmp.80 = aputv %tmp.79 1 %tmp.78;
+        %tmp.81 = "23";
+        %tmp.82 = dup %tmp.80;
+        %tmp.83 = aputv %tmp.82 2 %tmp.81;
+        %tmp.84 = dup %tmp.73;
+        %tmp.85 = aputv %tmp.84 6 %tmp.83;
+        %tmp.86 = newa 3;
+        %tmp.87 = 51.54065;
+        %tmp.88 = dup %tmp.86;
+        %tmp.89 = aputv %tmp.88 0 %tmp.87;
+        %tmp.90 = 5.567451;
+        %tmp.91 = dup %tmp.89;
+        %tmp.92 = aputv %tmp.91 1 %tmp.90;
+        %tmp.93 = "68";
+        %tmp.94 = dup %tmp.92;
+        %tmp.95 = aputv %tmp.94 2 %tmp.93;
+        %tmp.96 = dup %tmp.85;
+        %tmp.97 = aputv %tmp.96 7 %tmp.95;
+        %tmp.98 = newa 3;
+        %tmp.99 = 51.517727;
+        %tmp.100 = dup %tmp.98;
+        %tmp.101 = aputv %tmp.100 0 %tmp.99;
+        %tmp.102 = 5.594812;
+        %tmp.103 = dup %tmp.101;
+        %tmp.104 = aputv %tmp.103 1 %tmp.102;
+        %tmp.105 = "71";
+        %tmp.106 = dup %tmp.104;
+        %tmp.107 = aputv %tmp.106 2 %tmp.105;
+        %tmp.108 = dup %tmp.97;
+        %tmp.109 = aputv %tmp.108 8 %tmp.107;
+        %tmp.110 = newa 3;
+        %tmp.111 = 51.51357;
+        %tmp.112 = dup %tmp.110;
+        %tmp.113 = aputv %tmp.112 0 %tmp.111;
+        %tmp.114 = 5.606901;
+        %tmp.115 = dup %tmp.113;
+        %tmp.116 = aputv %tmp.115 1 %tmp.114;
+        %tmp.117 = "63";
+        %tmp.118 = dup %tmp.116;
+        %tmp.119 = aputv %tmp.118 2 %tmp.117;
+        %tmp.120 = dup %tmp.109;
+        %tmp.121 = aputv %tmp.120 9 %tmp.119;
+        %tmp.122 = newa 3;
+        %tmp.123 = 51.515099;
+        %tmp.124 = dup %tmp.122;
+        %tmp.125 = aputv %tmp.124 0 %tmp.123;
+        %tmp.126 = 5.623788;
+        %tmp.127 = dup %tmp.125;
+        %tmp.128 = aputv %tmp.127 1 %tmp.126;
+        %tmp.129 = "93";
+        %tmp.130 = dup %tmp.128;
+        %tmp.131 = aputv %tmp.130 2 %tmp.129;
+        %tmp.132 = dup %tmp.121;
+        %tmp.133 = aputv %tmp.132 10 %tmp.131;
+        %tmp.134 = newa 3;
+        %tmp.135 = 51.509674;
+        %tmp.136 = dup %tmp.134;
+        %tmp.137 = aputv %tmp.136 0 %tmp.135;
+        %tmp.138 = 5.637694;
+        %tmp.139 = dup %tmp.137;
+        %tmp.140 = aputv %tmp.139 1 %tmp.138;
+        %tmp.141 = "59";
+        %tmp.142 = dup %tmp.140;
+        %tmp.143 = aputv %tmp.142 2 %tmp.141;
+        %tmp.144 = dup %tmp.133;
+        %tmp.145 = aputv %tmp.144 11 %tmp.143;
+        %tmp.146 = newa 3;
+        %tmp.147 = 51.512587;
+        %tmp.148 = dup %tmp.146;
+        %tmp.149 = aputv %tmp.148 0 %tmp.147;
+        %tmp.150 = 5.651264;
+        %tmp.151 = dup %tmp.149;
+        %tmp.152 = aputv %tmp.151 1 %tmp.150;
+        %tmp.153 = "44";
+        %tmp.154 = dup %tmp.152;
+        %tmp.155 = aputv %tmp.154 2 %tmp.153;
+        %tmp.156 = dup %tmp.145;
+        %tmp.157 = aputv %tmp.156 12 %tmp.155;
+        %tmp.158 = newa 3;
+        %tmp.159 = 51.504051;
+        %tmp.160 = dup %tmp.158;
+        %tmp.161 = aputv %tmp.160 0 %tmp.159;
+        %tmp.162 = 5.652927;
+        %tmp.163 = dup %tmp.161;
+        %tmp.164 = aputv %tmp.163 1 %tmp.162;
+        %tmp.165 = "7";
+        %tmp.166 = dup %tmp.164;
+        %tmp.167 = aputv %tmp.166 2 %tmp.165;
+        %tmp.168 = dup %tmp.157;
+        %tmp.169 = aputv %tmp.168 13 %tmp.167;
+        %tmp.170 = newa 3;
+        %tmp.171 = 51.496261;
+        %tmp.172 = dup %tmp.170;
+        %tmp.173 = aputv %tmp.172 0 %tmp.171;
+        %tmp.174 = 5.652529;
+        %tmp.175 = dup %tmp.173;
+        %tmp.176 = aputv %tmp.175 1 %tmp.174;
+        %tmp.177 = "5";
+        %tmp.178 = dup %tmp.176;
+        %tmp.179 = aputv %tmp.178 2 %tmp.177;
+        %tmp.180 = dup %tmp.169;
+        %tmp.181 = aputv %tmp.180 14 %tmp.179;
+        %tmp.182 = newa 3;
+        %tmp.183 = 51.494295;
+        %tmp.184 = dup %tmp.182;
+        %tmp.185 = aputv %tmp.184 0 %tmp.183;
+        %tmp.186 = 5.640171;
+        %tmp.187 = dup %tmp.185;
+        %tmp.188 = aputv %tmp.187 1 %tmp.186;
+        %tmp.189 = "6";
+        %tmp.190 = dup %tmp.188;
+        %tmp.191 = aputv %tmp.190 2 %tmp.189;
+        %tmp.192 = dup %tmp.181;
+        %tmp.193 = aputv %tmp.192 15 %tmp.191;
+        %tmp.194 = newa 3;
+        %tmp.195 = 51.474951;
+        %tmp.196 = dup %tmp.194;
+        %tmp.197 = aputv %tmp.196 0 %tmp.195;
+        %tmp.198 = 5.632843;
+        %tmp.199 = dup %tmp.197;
+        %tmp.200 = aputv %tmp.199 1 %tmp.198;
+        %tmp.201 = "3";
+        %tmp.202 = dup %tmp.200;
+        %tmp.203 = aputv %tmp.202 2 %tmp.201;
+        %tmp.204 = dup %tmp.193;
+        %tmp.205 = aputv %tmp.204 16 %tmp.203;
+        %tmp.206 = newa 3;
+        %tmp.207 = 51.490679;
+        %tmp.208 = dup %tmp.206;
+        %tmp.209 = aputv %tmp.208 0 %tmp.207;
+        %tmp.210 = 5.610991;
+        %tmp.211 = dup %tmp.209;
+        %tmp.212 = aputv %tmp.211 1 %tmp.210;
+        %tmp.213 = "61";
+        %tmp.214 = dup %tmp.212;
+        %tmp.215 = aputv %tmp.214 2 %tmp.213;
+        %tmp.216 = dup %tmp.205;
+        %tmp.217 = aputv %tmp.216 17 %tmp.215;
+        %tmp.218 = newa 3;
+        %tmp.219 = 51.483892;
+        %tmp.220 = dup %tmp.218;
+        %tmp.221 = aputv %tmp.220 0 %tmp.219;
+        %tmp.222 = 5.604456;
+        %tmp.223 = dup %tmp.221;
+        %tmp.224 = aputv %tmp.223 1 %tmp.222;
+        %tmp.225 = "62";
+        %tmp.226 = dup %tmp.224;
+        %tmp.227 = aputv %tmp.226 2 %tmp.225;
+        %tmp.228 = dup %tmp.217;
+        %tmp.229 = aputv %tmp.228 18 %tmp.227;
+        %tmp.230 = newa 3;
+        %tmp.231 = 51.467134;
+        %tmp.232 = dup %tmp.230;
+        %tmp.233 = aputv %tmp.232 0 %tmp.231;
+        %tmp.234 = 5.608515;
+        %tmp.235 = dup %tmp.233;
+        %tmp.236 = aputv %tmp.235 1 %tmp.234;
+        %tmp.237 = "47";
+        %tmp.238 = dup %tmp.236;
+        %tmp.239 = aputv %tmp.238 2 %tmp.237;
+        %tmp.240 = dup %tmp.229;
+        %tmp.241 = aputv %tmp.240 19 %tmp.239;
+        %tmp.242 = newa 3;
+        %tmp.243 = 51.454487;
+        %tmp.244 = dup %tmp.242;
+        %tmp.245 = aputv %tmp.244 0 %tmp.243;
+        %tmp.246 = 5.594117;
+        %tmp.247 = dup %tmp.245;
+        %tmp.248 = aputv %tmp.247 1 %tmp.246;
+        %tmp.249 = "82";
+        %tmp.250 = dup %tmp.248;
+        %tmp.251 = aputv %tmp.250 2 %tmp.249;
+        %tmp.252 = dup %tmp.241;
+        %tmp.253 = aputv %tmp.252 20 %tmp.251;
+        %tmp.254 = newa 3;
+        %tmp.255 = 51.448141;
+        %tmp.256 = dup %tmp.254;
+        %tmp.257 = aputv %tmp.256 0 %tmp.255;
+        %tmp.258 = 5.603509;
+        %tmp.259 = dup %tmp.257;
+        %tmp.260 = aputv %tmp.259 1 %tmp.258;
+        %tmp.261 = "83";
+        %tmp.262 = dup %tmp.260;
+        %tmp.263 = aputv %tmp.262 2 %tmp.261;
+        %tmp.264 = dup %tmp.253;
+        %tmp.265 = aputv %tmp.264 21 %tmp.263;
+        %tmp.266 = newa 3;
+        %tmp.267 = 51.445603;
+        %tmp.268 = dup %tmp.266;
+        %tmp.269 = aputv %tmp.268 0 %tmp.267;
+        %tmp.270 = 5.577208;
+        %tmp.271 = dup %tmp.269;
+        %tmp.272 = aputv %tmp.271 1 %tmp.270;
+        %tmp.273 = "36";
+        %tmp.274 = dup %tmp.272;
+        %tmp.275 = aputv %tmp.274 2 %tmp.273;
+        %tmp.276 = dup %tmp.265;
+        %tmp.277 = aputv %tmp.276 22 %tmp.275;
+        %tmp.278 = newa 3;
+        %tmp.279 = 51.431613;
+        %tmp.280 = dup %tmp.278;
+        %tmp.281 = aputv %tmp.280 0 %tmp.279;
+        %tmp.282 = 5.541073;
+        %tmp.283 = dup %tmp.281;
+        %tmp.284 = aputv %tmp.283 1 %tmp.282;
+        %tmp.285 = "77";
+        %tmp.286 = dup %tmp.284;
+        %tmp.287 = aputv %tmp.286 2 %tmp.285;
+        %tmp.288 = dup %tmp.277;
+        %tmp.289 = aputv %tmp.288 23 %tmp.287;
+        %tmp.290 = newa 3;
+        %tmp.291 = 51.445758;
+        %tmp.292 = dup %tmp.290;
+        %tmp.293 = aputv %tmp.292 0 %tmp.291;
+        %tmp.294 = 5.536803;
+        %tmp.295 = dup %tmp.293;
+        %tmp.296 = aputv %tmp.295 1 %tmp.294;
+        %tmp.297 = "75";
+        %tmp.298 = dup %tmp.296;
+        %tmp.299 = aputv %tmp.298 2 %tmp.297;
+        %tmp.300 = dup %tmp.289;
+        %tmp.301 = aputv %tmp.300 24 %tmp.299;
+        %tmp.302 = newa 3;
+        %tmp.303 = 51.450448;
+        %tmp.304 = dup %tmp.302;
+        %tmp.305 = aputv %tmp.304 0 %tmp.303;
+        %tmp.306 = 5.527617;
+        %tmp.307 = dup %tmp.305;
+        %tmp.308 = aputv %tmp.307 1 %tmp.306;
+        %tmp.309 = "99";
+        %tmp.310 = dup %tmp.308;
+        %tmp.311 = aputv %tmp.310 2 %tmp.309;
+        %tmp.312 = dup %tmp.301;
+        %tmp.313 = aputv %tmp.312 25 %tmp.311;
+        %tmp.314 = newa 3;
+        %tmp.315 = 51.460378;
+        %tmp.316 = dup %tmp.314;
+        %tmp.317 = aputv %tmp.316 0 %tmp.315;
+        %tmp.318 = 5.529921;
+        %tmp.319 = dup %tmp.317;
+        %tmp.320 = aputv %tmp.319 1 %tmp.318;
+        %tmp.321 = "35";
+        %tmp.322 = dup %tmp.320;
+        %tmp.323 = aputv %tmp.322 2 %tmp.321;
+        %tmp.324 = dup %tmp.313;
+        %tmp.325 = aputv %tmp.324 26 %tmp.323;
+        %tmp.326 = newa 3;
+        %tmp.327 = 51.467913;
+        %tmp.328 = dup %tmp.326;
+        %tmp.329 = aputv %tmp.328 0 %tmp.327;
+        %tmp.330 = 5.520593;
+        %tmp.331 = dup %tmp.329;
+        %tmp.332 = aputv %tmp.331 1 %tmp.330;
+        %tmp.333 = "81";
+        %tmp.334 = dup %tmp.332;
+        %tmp.335 = aputv %tmp.334 2 %tmp.333;
+        %tmp.336 = dup %tmp.325;
+        %tmp.337 = aputv %tmp.336 27 %tmp.335;
+        %tmp.338 = newa 3;
+        %tmp.339 = 51.470928;
+        %tmp.340 = dup %tmp.338;
+        %tmp.341 = aputv %tmp.340 0 %tmp.339;
+        %tmp.342 = 5.514684;
+        %tmp.343 = dup %tmp.341;
+        %tmp.344 = aputv %tmp.343 1 %tmp.342;
+        %tmp.345 = "80";
+        %tmp.346 = dup %tmp.344;
+        %tmp.347 = aputv %tmp.346 2 %tmp.345;
+        %tmp.348 = dup %tmp.337;
+        %tmp.349 = aputv %tmp.348 28 %tmp.347;
+        %tmp.350 = newa 3;
+        %tmp.351 = 51.468183;
+        %tmp.352 = dup %tmp.350;
+        %tmp.353 = aputv %tmp.352 0 %tmp.351;
+        %tmp.354 = 5.506216;
+        %tmp.355 = dup %tmp.353;
+        %tmp.356 = aputv %tmp.355 1 %tmp.354;
+        %tmp.357 = "98";
+        %tmp.358 = dup %tmp.356;
+        %tmp.359 = aputv %tmp.358 2 %tmp.357;
+        %tmp.360 = dup %tmp.349;
+        %tmp.361 = aputv %tmp.360 29 %tmp.359;
+        putv self :nodes %tmp.361;
+    }
+    [ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 10; @position = 8; @symbol_vardef = [nodes,10,8,13]; ]
+    var nodes;
+    [ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 43; @position = 8; @symbol_vardef = [currentIndex,43,8,20]; ]
+    var currentIndex = 0;
+    [ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 44; @position = 8; @symbol_vardef = [displayNode,44,8,19]; ]
+    var displayNode = "1";
+    [ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 45; @position = 8; @symbol_vardef = [currentLat,45,8,18]; ]
+    var currentLat = 0.0;
+    [ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 46; @position = 8; @symbol_vardef = [currentLon,46,8,18]; ]
+    var currentLon = 0.0;
+    [ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 47; @position = 8; @symbol_vardef = [lastDistance,47,8,20]; ]
+    var lastDistance = 0.0;
+    [ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 48; @position = 8; @symbol_vardef = [matchBlink,48,8,18]; ]
+    var matchBlink = false;
+    [ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 50; @symbol_functiondef = [initialize,50,13,23]; ]
+    function initialize() as Void {
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_50_26_52_4_start:
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 51 8 ]
+        symbol [ DataField %tmp.2 51 8 17 ];
+        %tmp.2 = getv ? :DataField;
+        symbol [ initialize %tmp.3 51 18 28 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_50_26_52_4_stop:
+    }
+    [ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 54; @symbol_functiondef = [compute,54,13,20]; @symbol_param<0> = [info,54,21,25]; ]
+    function compute(info) {
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_54_27_83_4_start:
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 56 8 ]
+        [ "C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_54_27_83_4_start" "C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_54_27_83_4_stop" ]
+        %posInfo.1 = local;
+        symbol [ posInfo %posInfo.1 56 12 19 ];
+        symbol [ Position %tmp.1 56 22 30 ];
+        %tmp.1 = getm $.Toybox.Position;
+        symbol [ getInfo %tmp.2 56 31 38 ];
+        %tmp.2 = getv function %tmp.1 :getInfo;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %posInfo.1 %tmp.3;
+        symbol [ posInfo %posInfo.1 56 12 19 ];
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 57 8 ]
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_57_8_80_8_if_stmt:
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_57_12_57_51_begin:
+        %tmp.4 = lgetv %posInfo.1;
+        symbol [ posInfo %tmp.4 57 12 19 ];
+        %tmp.5 = null;
+        %tmp.6 = ne %tmp.4 %tmp.5;
+        bf %tmp.6 @C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_57_8_80_8_if_end;
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_57_31_57_51_true:
+        %tmp.7 = lgetv %posInfo.1;
+        symbol [ posInfo %tmp.7 57 31 38 ];
+        %tmp.8 = as %tmp.7 { (!Null) };
+        symbol [ position %tmp.9 57 39 47 ];
+        %tmp.9 = getv %tmp.8 :position;
+        %tmp.10 = null;
+        %tmp.11 = ne %tmp.9 %tmp.10;
+        push %tmp.11;
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_57_31_57_51_end:
+        %tmp.12 = phi [%tmp.6 @C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_57_12_57_51_begin] [%tmp.11 @C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_57_31_57_51_true] [%tmp.12 @C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_57_31_57_51_end];
+        bf %tmp.12 @C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_57_8_80_8_if_end;
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_57_8_80_8_if_true:
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_57_57_80_8_start:
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 59 12 ]
+        [ "C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_57_57_80_8_start" "C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_57_57_80_8_stop" ]
+        %pos.2 = local;
+        symbol [ pos %pos.2 59 16 19 ];
+        %tmp.13 = lgetv %posInfo.1;
+        symbol [ posInfo %tmp.13 59 22 29 ];
+        %tmp.14 = as %tmp.13 { (!Null) };
+        symbol [ position %tmp.15 59 30 38 ];
+        %tmp.15 = getv %tmp.14 :position;
+        symbol [ toDegrees %tmp.16 59 39 48 ];
+        %tmp.16 = getv function %tmp.15 :toDegrees;
+        %tmp.17 = invoke %tmp.15 %tmp.16();
+        lputv %pos.2 %tmp.17;
+        symbol [ pos %pos.2 59 16 19 ];
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 60 12 ]
+        %tmp.18 = lgetv %pos.2;
+        symbol [ pos %tmp.18 60 25 28 ];
+        %tmp.19 = 0;
+        %tmp.20 = agetv %tmp.18 %tmp.19;
+        symbol [ currentLat ? 60 12 22 ];
+        putv self :currentLat %tmp.20;
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 61 12 ]
+        %tmp.21 = lgetv %pos.2;
+        symbol [ pos %tmp.21 61 25 28 ];
+        %tmp.22 = 1;
+        %tmp.23 = agetv %tmp.21 %tmp.22;
+        symbol [ currentLon ? 61 12 22 ];
+        putv self :currentLon %tmp.23;
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 63 12 ]
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_63_12_79_12_if_stmt:
+        symbol [ currentIndex %tmp.25 63 16 28 ];
+        %tmp.25 = getv ? :currentIndex;
+        symbol [ nodes %tmp.27 63 31 36 ];
+        %tmp.27 = getv ? :nodes;
+        symbol [ size %tmp.28 63 37 41 ];
+        %tmp.28 = getv function %tmp.27 :size;
+        %tmp.29 = invoke %tmp.27 %tmp.28();
+        %tmp.30 = lt %tmp.25 %tmp.29;
+        bf %tmp.30 @C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_63_12_79_12_if_end;
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_63_12_79_12_if_true:
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_63_45_79_12_start:
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 65 16 ]
+        [ "C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_63_45_79_12_start" "C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_63_45_79_12_stop" ]
+        %target.3 = local;
+        symbol [ target %target.3 65 20 26 ];
+        symbol [ nodes %tmp.32 65 29 34 ];
+        %tmp.32 = getv ? :nodes;
+        symbol [ currentIndex %tmp.34 65 35 47 ];
+        %tmp.34 = getv ? :currentIndex;
+        %tmp.35 = agetv %tmp.32 %tmp.34;
+        lputv %target.3 %tmp.35;
+        symbol [ target %target.3 65 20 26 ];
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 66 16 ]
+        %tmp.36 = self;
+        symbol [ calculateDist %tmp.37 66 31 44 ];
+        %tmp.37 = getv function %tmp.36 :calculateDist;
+        symbol [ currentLat %tmp.39 66 45 55 ];
+        %tmp.39 = getv ? :currentLat;
+        symbol [ currentLon %tmp.41 66 57 67 ];
+        %tmp.41 = getv ? :currentLon;
+        %tmp.42 = lgetv %target.3;
+        symbol [ target %tmp.42 66 69 75 ];
+        %tmp.43 = 0;
+        %tmp.44 = agetv %tmp.42 %tmp.43;
+        %tmp.45 = lgetv %target.3;
+        symbol [ target %tmp.45 66 80 86 ];
+        %tmp.46 = 1;
+        %tmp.47 = agetv %tmp.45 %tmp.46;
+        %tmp.48 = invoke %tmp.36 %tmp.37(%tmp.39, %tmp.41, %tmp.44, %tmp.47);
+        symbol [ lastDistance ? 66 16 28 ];
+        putv self :lastDistance %tmp.48;
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 68 16 ]
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_68_16_78_16_if_stmt:
+        symbol [ lastDistance %tmp.50 68 20 32 ];
+        %tmp.50 = getv ? :lastDistance;
+        %tmp.51 = 10;
+        %tmp.52 = lt %tmp.50 %tmp.51;
+        bf %tmp.52 @C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_68_16_78_16_if_end;
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_68_16_78_16_if_true:
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_68_39_78_16_start:
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 69 20 ]
+        symbol [ matchBlink %tmp.54 69 34 44 ];
+        %tmp.54 = getv ? :matchBlink;
+        %tmp.55 = not %tmp.54;
+        symbol [ matchBlink ? 69 20 30 ];
+        putv self :matchBlink %tmp.55;
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 70 20 ]
+        symbol [ Attention %tmp.56 70 20 29 ];
+        %tmp.56 = getm $.Toybox.Attention;
+        symbol [ vibrate %tmp.57 70 30 37 ];
+        %tmp.57 = getv function %tmp.56 :vibrate;
+        %tmp.58 = newa 1;
+        symbol [ Attention %tmp.61 70 44 53 ];
+        %tmp.61 = getm $.Toybox.Attention;
+        symbol [ VibeProfile %tmp.62 70 54 65 ];
+        %tmp.62 = getv function ? %tmp.61 :VibeProfile;
+        %tmp.63 = 100;
+        %tmp.64 = 800;
+        %tmp.59 = newc %tmp.62 (%tmp.63, %tmp.64);
+        %tmp.65 = dup %tmp.58;
+        %tmp.66 = aputv %tmp.65 0 %tmp.59;
+        invoke %tmp.56 %tmp.57(%tmp.66);
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 71 20 ]
+        symbol [ currentIndex %tmp.69 71 20 32 ];
+        %tmp.69 = getv ? :currentIndex;
+        %tmp.70 = add %tmp.69 1;
+        symbol [ currentIndex ? 71 20 32 ];
+        putv self :currentIndex dup %tmp.70;
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 73 20 ]
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_73_20_77_20_if_stmt:
+        symbol [ currentIndex %tmp.72 73 24 36 ];
+        %tmp.72 = getv ? :currentIndex;
+        symbol [ nodes %tmp.74 73 39 44 ];
+        %tmp.74 = getv ? :nodes;
+        symbol [ size %tmp.75 73 45 49 ];
+        %tmp.75 = getv function %tmp.74 :size;
+        %tmp.76 = invoke %tmp.74 %tmp.75();
+        %tmp.77 = lt %tmp.72 %tmp.76;
+        bf %tmp.77 @C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_73_20_77_20_if_else_false;
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_73_20_77_20_if_true:
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_73_53_75_20_start:
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 74 24 ]
+        symbol [ nodes %tmp.79 74 38 43 ];
+        %tmp.79 = getv ? :nodes;
+        symbol [ currentIndex %tmp.81 74 44 56 ];
+        %tmp.81 = getv ? :currentIndex;
+        %tmp.82 = agetv %tmp.79 %tmp.81;
+        %tmp.83 = 2;
+        %tmp.84 = agetv %tmp.82 %tmp.83;
+        symbol [ displayNode ? 74 24 35 ];
+        putv self :displayNode %tmp.84;
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_73_53_75_20_stop:
+        goto @C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_73_20_77_20_if_end;
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_73_20_77_20_if_else_false:
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_75_27_77_20_start:
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 76 24 ]
+        %tmp.85 = "DONE";
+        symbol [ displayNode ? 76 24 35 ];
+        putv self :displayNode %tmp.85;
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_75_27_77_20_stop:
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_73_20_77_20_if_end:
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_68_39_78_16_stop:
+        goto @C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_68_16_78_16_if_end;
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_68_16_78_16_if_end:
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_63_45_79_12_stop:
+        goto @C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_63_12_79_12_if_end;
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_63_12_79_12_if_end:
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_57_57_80_8_stop:
+        goto @C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_57_8_80_8_if_end;
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_57_8_80_8_if_end:
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 82 8 ]
+        symbol [ lastDistance %tmp.87 82 15 27 ];
+        %tmp.87 = getv ? :lastDistance;
+        ret %tmp.87;
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_54_27_83_4_stop:
+    }
+    [ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 85; @symbol_functiondef = [onUpdate,85,9,17]; @symbol_param<0> = [dc,85,18,20]; ]
+    function onUpdate(dc) {
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_85_22_122_0_start:
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 86 4 ]
+        [ "C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_85_22_122_0_start" "C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_85_22_122_0_stop" ]
+        %w.1 = local;
+        symbol [ w %w.1 86 8 9 ];
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 86 12 14 ];
+        symbol [ getWidth %tmp.2 86 15 23 ];
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %w.1 %tmp.3;
+        symbol [ w %w.1 86 8 9 ];
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 87 4 ]
+        [ "C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_85_22_122_0_start" "C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_85_22_122_0_stop" ]
+        %h.2 = local;
+        symbol [ h %h.2 87 8 9 ];
+        %tmp.4 = lgetv %dc;
+        symbol [ dc %tmp.4 87 12 14 ];
+        symbol [ getHeight %tmp.5 87 15 24 ];
+        %tmp.5 = getv function %tmp.4 :getHeight;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %h.2 %tmp.6;
+        symbol [ h %h.2 87 8 9 ];
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 90 4 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 90 4 6 ];
+        symbol [ setColor %tmp.8 90 7 15 ];
+        %tmp.8 = getv function %tmp.7 :setColor;
+        symbol [ Graphics %tmp.9 90 16 24 ];
+        %tmp.9 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.10 90 25 36 ];
+        %tmp.10 = getv %tmp.9 :COLOR_BLACK;
+        symbol [ Graphics %tmp.11 90 38 46 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.12 90 47 58 ];
+        %tmp.12 = getv %tmp.11 :COLOR_BLACK;
+        invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12);
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 91 4 ]
+        %tmp.13 = lgetv %dc;
+        symbol [ dc %tmp.13 91 4 6 ];
+        symbol [ clear %tmp.14 91 7 12 ];
+        %tmp.14 = getv function %tmp.13 :clear;
+        invoke %tmp.13 %tmp.14();
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 94 4 ]
+        %tmp.15 = lgetv %dc;
+        symbol [ dc %tmp.15 94 4 6 ];
+        symbol [ setColor %tmp.16 94 7 15 ];
+        %tmp.16 = getv function %tmp.15 :setColor;
+        symbol [ Graphics %tmp.17 94 16 24 ];
+        %tmp.17 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.18 94 25 36 ];
+        %tmp.18 = getv %tmp.17 :COLOR_WHITE;
+        symbol [ Graphics %tmp.19 94 38 46 ];
+        %tmp.19 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.20 94 47 64 ];
+        %tmp.20 = getv %tmp.19 :COLOR_TRANSPARENT;
+        invoke %tmp.15 %tmp.16(%tmp.18, %tmp.20);
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 97 4 ]
+        %tmp.21 = lgetv %dc;
+        symbol [ dc %tmp.21 97 4 6 ];
+        symbol [ drawText %tmp.22 97 7 15 ];
+        %tmp.22 = getv function %tmp.21 :drawText;
+        %tmp.23 = lgetv %w.1;
+        symbol [ w %tmp.23 97 16 17 ];
+        %tmp.24 = 2;
+        %tmp.25 = div %tmp.23 %tmp.24;
+        %tmp.26 = lgetv %h.2;
+        symbol [ h %tmp.26 97 21 22 ];
+        %tmp.27 = 0.05;
+        %tmp.28 = mul %tmp.26 %tmp.27;
+        symbol [ Graphics %tmp.29 97 29 37 ];
+        %tmp.29 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.30 97 38 48 ];
+        %tmp.30 = getv %tmp.29 :FONT_XTINY;
+        %tmp.31 = "LAT: ";
+        symbol [ currentLat %tmp.33 98 26 36 ];
+        %tmp.33 = getv ? :currentLat;
+        symbol [ format %tmp.34 98 37 43 ];
+        %tmp.34 = getv function %tmp.33 :format;
+        %tmp.35 = "%0.6f";
+        %tmp.36 = invoke %tmp.33 %tmp.34(%tmp.35);
+        %tmp.37 = add %tmp.31 %tmp.36;
+        symbol [ Graphics %tmp.38 99 16 24 ];
+        %tmp.38 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.39 99 25 44 ];
+        %tmp.39 = getv %tmp.38 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.21 %tmp.22(%tmp.25, %tmp.28, %tmp.30, %tmp.37, %tmp.39);
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 101 4 ]
+        %tmp.40 = lgetv %dc;
+        symbol [ dc %tmp.40 101 4 6 ];
+        symbol [ drawText %tmp.41 101 7 15 ];
+        %tmp.41 = getv function %tmp.40 :drawText;
+        %tmp.42 = lgetv %w.1;
+        symbol [ w %tmp.42 101 16 17 ];
+        %tmp.43 = 2;
+        %tmp.44 = div %tmp.42 %tmp.43;
+        %tmp.45 = lgetv %h.2;
+        symbol [ h %tmp.45 101 21 22 ];
+        %tmp.46 = 0.15;
+        %tmp.47 = mul %tmp.45 %tmp.46;
+        symbol [ Graphics %tmp.48 101 29 37 ];
+        %tmp.48 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.49 101 38 48 ];
+        %tmp.49 = getv %tmp.48 :FONT_XTINY;
+        %tmp.50 = "LON: ";
+        symbol [ currentLon %tmp.52 102 26 36 ];
+        %tmp.52 = getv ? :currentLon;
+        symbol [ format %tmp.53 102 37 43 ];
+        %tmp.53 = getv function %tmp.52 :format;
+        %tmp.54 = "%0.6f";
+        %tmp.55 = invoke %tmp.52 %tmp.53(%tmp.54);
+        %tmp.56 = add %tmp.50 %tmp.55;
+        symbol [ Graphics %tmp.57 103 16 24 ];
+        %tmp.57 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.58 103 25 44 ];
+        %tmp.58 = getv %tmp.57 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.40 %tmp.41(%tmp.44, %tmp.47, %tmp.49, %tmp.56, %tmp.58);
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 106 4 ]
+        %tmp.59 = lgetv %dc;
+        symbol [ dc %tmp.59 106 4 6 ];
+        symbol [ drawText %tmp.60 106 7 15 ];
+        %tmp.60 = getv function %tmp.59 :drawText;
+        %tmp.61 = lgetv %w.1;
+        symbol [ w %tmp.61 106 16 17 ];
+        %tmp.62 = 2;
+        %tmp.63 = div %tmp.61 %tmp.62;
+        %tmp.64 = lgetv %h.2;
+        symbol [ h %tmp.64 106 21 22 ];
+        %tmp.65 = 0.35;
+        %tmp.66 = mul %tmp.64 %tmp.65;
+        symbol [ Graphics %tmp.67 106 29 37 ];
+        %tmp.67 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.68 106 38 49 ];
+        %tmp.68 = getv %tmp.67 :FONT_MEDIUM;
+        %tmp.69 = "NEXT: ";
+        symbol [ displayNode %tmp.71 107 27 38 ];
+        %tmp.71 = getv ? :displayNode;
+        %tmp.72 = add %tmp.69 %tmp.71;
+        symbol [ Graphics %tmp.73 108 16 24 ];
+        %tmp.73 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.74 108 25 44 ];
+        %tmp.74 = getv %tmp.73 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.59 %tmp.60(%tmp.63, %tmp.66, %tmp.68, %tmp.72, %tmp.74);
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 111 4 ]
+        %tmp.75 = lgetv %dc;
+        symbol [ dc %tmp.75 111 4 6 ];
+        symbol [ drawText %tmp.76 111 7 15 ];
+        %tmp.76 = getv function %tmp.75 :drawText;
+        %tmp.77 = lgetv %w.1;
+        symbol [ w %tmp.77 111 16 17 ];
+        %tmp.78 = 2;
+        %tmp.79 = div %tmp.77 %tmp.78;
+        %tmp.80 = lgetv %h.2;
+        symbol [ h %tmp.80 111 21 22 ];
+        %tmp.81 = 0.55;
+        %tmp.82 = mul %tmp.80 %tmp.81;
+        symbol [ Graphics %tmp.83 111 29 37 ];
+        %tmp.83 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.84 111 38 48 ];
+        %tmp.84 = getv %tmp.83 :FONT_LARGE;
+        symbol [ lastDistance %tmp.86 112 16 28 ];
+        %tmp.86 = getv ? :lastDistance;
+        symbol [ format %tmp.87 112 29 35 ];
+        %tmp.87 = getv function %tmp.86 :format;
+        %tmp.88 = "%0.0f";
+        %tmp.89 = invoke %tmp.86 %tmp.87(%tmp.88);
+        %tmp.90 = " m";
+        %tmp.91 = add %tmp.89 %tmp.90;
+        symbol [ Graphics %tmp.92 113 16 24 ];
+        %tmp.92 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.93 113 25 44 ];
+        %tmp.93 = getv %tmp.92 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.75 %tmp.76(%tmp.79, %tmp.82, %tmp.84, %tmp.91, %tmp.93);
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 116 4 ]
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_116_4_121_4_if_stmt:
+        symbol [ matchBlink %tmp.95 116 8 18 ];
+        %tmp.95 = getv ? :matchBlink;
+        bf %tmp.95 @C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_116_4_121_4_if_end;
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_116_4_121_4_if_true:
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_116_20_121_4_start:
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 117 8 ]
+        %tmp.96 = lgetv %dc;
+        symbol [ dc %tmp.96 117 8 10 ];
+        symbol [ setColor %tmp.97 117 11 19 ];
+        %tmp.97 = getv function %tmp.96 :setColor;
+        symbol [ Graphics %tmp.98 117 20 28 ];
+        %tmp.98 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.99 117 29 38 ];
+        %tmp.99 = getv %tmp.98 :COLOR_RED;
+        symbol [ Graphics %tmp.100 117 40 48 ];
+        %tmp.100 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.101 117 49 66 ];
+        %tmp.101 = getv %tmp.100 :COLOR_TRANSPARENT;
+        invoke %tmp.96 %tmp.97(%tmp.99, %tmp.101);
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 118 8 ]
+        %tmp.102 = lgetv %dc;
+        symbol [ dc %tmp.102 118 8 10 ];
+        symbol [ drawText %tmp.103 118 11 19 ];
+        %tmp.103 = getv function %tmp.102 :drawText;
+        %tmp.104 = lgetv %w.1;
+        symbol [ w %tmp.104 118 20 21 ];
+        %tmp.105 = 2;
+        %tmp.106 = div %tmp.104 %tmp.105;
+        %tmp.107 = lgetv %h.2;
+        symbol [ h %tmp.107 118 25 26 ];
+        %tmp.108 = 0.80;
+        %tmp.109 = mul %tmp.107 %tmp.108;
+        symbol [ Graphics %tmp.110 118 33 41 ];
+        %tmp.110 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.111 118 42 53 ];
+        %tmp.111 = getv %tmp.110 :FONT_MEDIUM;
+        %tmp.112 = "MATCH";
+        symbol [ Graphics %tmp.113 120 20 28 ];
+        %tmp.113 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.114 120 29 48 ];
+        %tmp.114 = getv %tmp.113 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.102 %tmp.103(%tmp.106, %tmp.109, %tmp.111, %tmp.112, %tmp.114);
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_116_20_121_4_stop:
+        goto @C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_116_4_121_4_if_end;
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_116_4_121_4_if_end:
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_85_22_122_0_stop:
+    }
+    [ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 126; @symbol_functiondef = [calculateDist,126,13,26]; @symbol_param<0> = [lat1,126,27,31]; @symbol_param<1> = [lon1,126,33,37]; @symbol_param<2> = [lat2,126,39,43]; @symbol_param<3> = [lon2,126,45,49]; ]
+    function calculateDist(lat1, lon1, lat2, lon2) {
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_126_51_130_4_start:
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 127 8 ]
+        [ "C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_126_51_130_4_start" "C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_126_51_130_4_stop" ]
+        %dx.1 = local;
+        symbol [ dx %dx.1 127 12 14 ];
+        %tmp.1 = 111320.0;
+        %tmp.2 = lgetv %lon1;
+        symbol [ lon1 %tmp.2 127 29 33 ];
+        %tmp.3 = lgetv %lon2;
+        symbol [ lon2 %tmp.3 127 36 40 ];
+        %tmp.4 = sub %tmp.2 %tmp.3;
+        %tmp.5 = mul %tmp.1 %tmp.4;
+        symbol [ Math %tmp.6 127 44 48 ];
+        %tmp.6 = getm $.Toybox.Math;
+        symbol [ cos %tmp.7 127 49 52 ];
+        %tmp.7 = getv function %tmp.6 :cos;
+        %tmp.8 = lgetv %lat1;
+        symbol [ lat1 %tmp.8 127 53 57 ];
+        %tmp.9 = 0.01745;
+        %tmp.10 = mul %tmp.8 %tmp.9;
+        %tmp.11 = invoke %tmp.6 %tmp.7(%tmp.10);
+        %tmp.12 = mul %tmp.5 %tmp.11;
+        lputv %dx.1 %tmp.12;
+        symbol [ dx %dx.1 127 12 14 ];
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 128 8 ]
+        [ "C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_126_51_130_4_start" "C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_126_51_130_4_stop" ]
+        %dy.2 = local;
+        symbol [ dy %dy.2 128 12 14 ];
+        %tmp.13 = 111132.0;
+        %tmp.14 = lgetv %lat1;
+        symbol [ lat1 %tmp.14 128 29 33 ];
+        %tmp.15 = lgetv %lat2;
+        symbol [ lat2 %tmp.15 128 36 40 ];
+        %tmp.16 = sub %tmp.14 %tmp.15;
+        %tmp.17 = mul %tmp.13 %tmp.16;
+        lputv %dy.2 %tmp.17;
+        symbol [ dy %dy.2 128 12 14 ];
+[ "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc" 129 8 ]
+        symbol [ Math %tmp.18 129 15 19 ];
+        %tmp.18 = getm $.Toybox.Math;
+        symbol [ sqrt %tmp.19 129 20 24 ];
+        %tmp.19 = getv function %tmp.18 :sqrt;
+        %tmp.20 = lgetv %dx.1;
+        symbol [ dx %tmp.20 129 25 27 ];
+        %tmp.21 = lgetv %dx.1;
+        symbol [ dx %tmp.21 129 30 32 ];
+        %tmp.22 = mul %tmp.20 %tmp.21;
+        %tmp.23 = lgetv %dy.2;
+        symbol [ dy %tmp.23 129 35 37 ];
+        %tmp.24 = lgetv %dy.2;
+        symbol [ dy %tmp.24 129 40 42 ];
+        %tmp.25 = mul %tmp.23 %tmp.24;
+        %tmp.26 = add %tmp.22 %tmp.25;
+        %tmp.27 = invoke %tmp.18 %tmp.19(%tmp.26);
+        ret %tmp.27;
+C__Users_mhbay_Documents_Garmin_KnooppenTakip_source_KnooppenTakipView_mc_126_51_130_4_stop:
+    }
+}
+[ @file = "C:\Users\mhbay\Documents\Garmin\KnooppenTakip\source\KnooppenTakipView.mc"; @line = 2; ]
+<init> {
+}
